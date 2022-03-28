@@ -202,47 +202,7 @@ color:white;
   background-color:rgb(211 47 47)  !important ;
 }
 /* Screen Sizes 700px and down */
-@media(max-width:800px){
 
-  .movie{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20vh;
-    gap: 4vh;
-  }
-  .pic1{
-    padding-left: 0%;
-    margin-top: 2vh;
-  }
-  .rev{
-    flex-direction: column-reverse;
-  }
-  .pic2{
-    padding-right: 0%;
-  }
-.all{
-  margin-top: 10vh;
-}
-.left{
-  width: 100%;
-  border-radius: 0%;
-  font-size: 2rem;
-}
-.right{
-  display: flex;
-  border-radius: 0%;
-  width: 100%;
-  align-content: center;
-  justify-content: center;
-  font-size: 2rem;
-}
-.about{
-  font-size: 1rem;
-  font-weight: bold;
-}
-}
 @media(max-width:800px){
   .gig{
     width:100%;
